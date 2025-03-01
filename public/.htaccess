@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Vérifier que l'URL demandée n'est pas un fichier ou un dossier réel
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rediriger vers index.php sans utiliser ?page=
+RewriteRule ^(.+)$ index.php/$1 [L,QSA]
