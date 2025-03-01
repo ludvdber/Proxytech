@@ -1,0 +1,333 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #dce0e4;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrer verticalement le contenu */
+}
+
+.main_section {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url('../../resources/main_background_2.1.png') no-repeat center center;
+    background-size: cover;
+    flex: 1; /* Permet à la section de prendre tout l'espace restant */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1; /* Mettre en dessous de la navbar */
+    padding-top: 10em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 47px;
+}
+
+h4 {
+    font-size: 33px;
+}
+
+h5 {
+    font-size: 27px;
+}
+
+h6 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 19px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    color: #eee;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5% 10% 3%;
+}
+
+main h4 {
+    color: #eee;
+    text-align: center;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}
+
+/*------------------configuration de la section nos réparations-----------------*/
+.nos_reparations {
+    height: 55em;
+}
+
+.container_article_rep {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titre_rep {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.titre_rep_light {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+hr {
+    background-color: #5abebd;
+    height: 0.5em;
+    width: 12em;
+    border-radius: 1em;
+    margin: auto auto 5em;
+    border-style: none;
+}
+
+.art_rep {
+    width: 20em;
+    height: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: white;
+    text-align: center;
+    border-radius: 2em;
+}
+
+
+.art_rep h2 {
+    padding: 0.5em;
+}
+
+.art_rep p {
+    line-height: 1.7em;
+}
+
+/*------------------configuration de la section nos services-----------------*/
+.nos_services {
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../../resources/nettoyage_pcb.jpg') no-repeat bottom;
+    padding: 1em;
+    height: auto;
+}
+
+.art_service {
+    width: 20em;
+    height: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+    padding: 2em;
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.art_service h2 {
+    padding: 0.5em;
+}
+
+.art_service p {
+    line-height: 1.7em;
+}
+
+section a {
+    text-decoration: none;
+
+    button {
+        transition: all 0.5s ease;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em;
+        border-radius: 2em;
+        background-color: black;
+        width: 10em;
+        height: auto;
+        margin-bottom: 1em;
+        text-decoration: none;
+        font-weight: bold;
+        text-wrap: nowrap;
+        color: white;
+        border-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 19px;
+        cursor: pointer;
+    }
+}
+
+button:hover {
+    color: black;
+    background-color: #5abebd;
+    text-wrap: nowrap;
+}
+
+/*------------------configuration de la section nos services-----------------*/
+
+
+.container_article_service {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*--------------configuration de la section de Comment procéder---------------*/
+.Procedure {
+    height: 55em;
+}
+
+.container_article_process {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 19px;
+}
+
+.case {
+    width: 20em;
+    height: 20em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    border-radius: 2em;
+    color: white;
+}
+
+.caseArticle_devis {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../../resources/devis_sign.png');
+}
+
+
+.caseArticle_dep {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../../resources/camionnette.jpeg');
+    background-size: cover;
+}
+
+.caseArticle_inter {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../../resources/mobile-repear.png');
+    background-size: cover;
+}
+
+.caseArticle_fin {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url('../../resources/animeMaterialoffice.jpg');
+    background-size: cover;
+}
+
+/*--------------------------------CONTACT-----------------------------------------------*/
+
+.couleurdefond {
+    background-color: #f6f6f6;
+}
+
+.grid_contact_map {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: center;
+}
+
+.contact_col {
+    width: 50%;
+    font-style: normal;
+
+    .info {
+        margin: 3em 1em 3em;
+
+        a {
+            color: #5abebd;
+        }
+    }
+
+    .map {
+        border: 2px solid #ddd; /* Ajouter une bordure légère */
+        border-radius: 10px; /* Bordure arrondie */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+        width: 80%;
+        height: 80%;
+        margin: 10%;
+    }
+}
+
+/*ajuste media pour tout les section d'informations */
+@media (max-width: 1630px) {
+
+    .container_main {
+        width: auto;
+        text-align: center;
+    }
+
+    .nos_reparations {
+        height: auto;
+        width: auto;
+    }
+
+    .nos_services {
+        height: auto;
+    }
+
+    .Procedure {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 914px) {
+    main h1 {
+        font-size: 47px;
+    }
+
+    main h4 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 600px) {
+    main h1 {
+        font-size: 32px;
+    }
+
+    main h4 {
+        font-size: 20px;
+    }
+}
+
+/*responsive contact + carte */
+@media (max-width: 767px) {
+    .contact_col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
