@@ -26,6 +26,25 @@ main {
     text-align: center;
 }
 
+.main_section_404 {
+    background-size: cover;
+    flex: 1; /* Permet à la section de prendre tout l'espace restant */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1; /* Mettre en dessous de la navbar */
+    padding-top: 10em;
+    text-align: center;
+}
+.image-404 {
+    max-width: 300px; /* Taille fixe, ajustable selon tes besoins */
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 h1 {
     font-size: 56px;
 }
