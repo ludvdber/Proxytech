@@ -44,5 +44,5 @@ if (function_exists($main)) {
     echo $main();
 } else {
     http_response_code(404);
-    echo "Page introuvable"; // faire la page 404
+    echo main_404();
 }
