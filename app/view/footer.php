@@ -48,7 +48,7 @@ function html_foot(): string
                 </div>
             </div>
             <div class="footer-copyright-mention">
-                <p>Copyright ©2025 - Designed with love by Nathan Delnatte & Ludovic Vanden Berghe</p>
+                <p>Copyright ©2025 - Designed with love by Nathan & Ludovic</p>
             </div>
         </div>
     </footer>
