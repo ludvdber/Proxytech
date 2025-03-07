@@ -7,7 +7,7 @@
 footer {
     font-family: "Poppins", sans-serif;
     background-color: #1c2540;
-    padding: 70px 0;
+    padding-top: 70px;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -87,17 +87,18 @@ ul {
 
     .logo-footer {
         position: relative;
-        left: -50px;
+        left: -10px;
 
         .logo {
-            height: 7em;
+            height: 5em;
         }
     }
 }
 
-.footer-copyright-mention {
-    position: relative;
-    top: 3em;
+.footer-copyright-mention p {
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: center;
     color: #ecf4f9;
 }
 

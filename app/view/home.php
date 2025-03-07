@@ -133,35 +133,25 @@ function html_main_body(): false|string
             <button type="button">En savoir plus</button>
         </a>
     </section>
-    <section>
-        <div class="couleurdefond">
-            <h1 class="titre_rep">Vous êtes interessé par nos services ?</h1>
-            <hr>
-            <div class="grid_contact_map">
-                <address class="contact_col">
-                    <h6 class="info"><img alt="van_icon" height="30" src="resources/van_icon.png"
-                                          width="30">
-                        Intervention gratuite sur un rayon de 10 km de Braine-Le-Comte</h6>
-                    <h6 class="info"><img alt="clock_icon" height="30" src="resources/clock_icon.png"
-                                          width="30"> Horaire
-                        d'intervention : Lundi-Samedi 16-21h</h6>
-                    <h6 class="info"><img alt="phone_icon" height="30" src="resources/phone_icon.png"
-                                          width="30">
-                        Appelez-nous au <a href="tel:+32474312579">0474/31.25.79</a></h6>
-                    <h6 class="info"><img alt="mail_icon" height="30" src="resources/mail_icon.png"
-                                          width="30">
-                        Contactez-nous sur <a
-                                href="mailto:proxytech.be@gmail.com?subject=Renseignement">proxytech.be@gmail.com</a>
-                    </h6>
-                </address>
-                <aside class="contact_col">
-                    <iframe class="map" allowfullscreen=""
-                            loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81009.63712905788!2d4.
-            057702631224662!3d50.616877264641914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x
-            47c3b2d66c747c85%3A0xd25f42320ddba71b!2s7090%20Braine-le-Comte!5e0!3m2!1sfr!2sbe!4v1710880286922!5m2!1sfr!2sbe"
-                    ></iframe>
-                </aside>
-            </div>
+    <section class="couleurdefond">
+        <h1 class="titre_rep">Vous êtes interessé par nos services ?</h1>
+        <hr>
+        <div class="grid_contact_map">
+            <address class="contact_col">
+                <h6 class="info"><img alt="van_icon" height="30" src="resources/van_icon.png" width="30">
+                    Intervention gratuite sur un rayon de 10 km de Braine-Le-Comte</h6>
+                <h6 class="info"><img alt="clock_icon" height="30" src="resources/clock_icon.png" width="30"> Horaire
+                    d'intervention : Lundi-Samedi 16-21h</h6>
+                <h6 class="info"><img alt="phone_icon" height="30" src="resources/phone_icon.png" width="30">
+                    Appelez-nous au <a href="tel:+32474312579">0474/31.25.79</a></h6>
+                <h6 class="info"><img alt="mail_icon" height="30" src="resources/mail_icon.png" width="30">
+                    Contactez-nous sur <a href="mailto:proxytech.be@gmail.com?subject=Renseignement">proxytech.be@gmail.com</a>
+                </h6>
+            </address>
+            <aside class="contact_col">
+                <iframe class="map" allowfullscreen="" loading="lazy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81009.63712905788!2d4.057702631224662!3d50.616877264641914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3b2d66c747c85%3A0xd25f42320ddba71b!2s7090%20Braine-le-Comte!5e0!3m2!1sfr!2sbe!4v1710880286922!5m2!1sfr!2sbe"></iframe>
+            </aside>
         </div>
     </section>
     <script type="text/javascript" src="js/scrollReveal.js"></script>

@@ -46,9 +46,6 @@ function html_head(): string
                     <a href="#">Installation</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">Mention légale</a>
-                </li>
-                <li class="list-item">
                     <a href="#">Contact</a>
                 </li>
             </ul>

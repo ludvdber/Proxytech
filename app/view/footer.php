@@ -13,7 +13,6 @@ function html_foot(): string
                 <div class="footer-col">
                     <h4>Entreprise</h4>
                     <ul>
-                        <li><a href="">Mentions légales</a></li>
                         <li><a href="">Confidentialité</a></li>
                         <li><a href="/condition">Conditions générales de vente</a></li>
                     </ul>
@@ -41,8 +40,8 @@ function html_foot(): string
                         <a href="https://www.instagram.com/proxytech_7090/"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="logo-footer">
-                        <a href="/home"><img src="resources/proxytech_logo_couleur.png" alt="Logo Proxytech"
+                     <div class="logo-footer">
+                        <a href="/home"><img src="resources/proxytech_logo_couleur_nav.png" alt="Logo Proxytech"
                                              class="logo"></a>
                     </div>
                 </div>
