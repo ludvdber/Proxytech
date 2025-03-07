@@ -15,7 +15,7 @@ function html_foot(): string
                     <ul>
                         <li><a href="">Mentions légales</a></li>
                         <li><a href="">Confidentialité</a></li>
-                        <li><a href="">Conditions générales de vente</a></li>
+                        <li><a href="/condition">Conditions générales de vente</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
