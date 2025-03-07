@@ -1,5 +1,7 @@
-html, body {
+html,
+body {
     height: 100%;
+
 }
 
 body {
@@ -11,33 +13,85 @@ main {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centrer verticalement le contenu */
+    justify-content: center;
+    /* Centrer verticalement le contenu */
 }
 
 .main_section {
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1)), url('../../resources/main_background_2.1.png') no-repeat center center;
     background-size: cover;
-    flex: 1; /* Permet à la section de prendre tout l'espace restant */
+    flex: 1;
+    /* Permet à la section de prendre tout l'espace restant */
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 1; /* Mettre en dessous de la navbar */
+    z-index: 1;
+    /* Mettre en dessous de la navbar */
     padding-top: 10em;
     text-align: center;
 }
 
 .main_section_404 {
     background-size: cover;
-    flex: 1; /* Permet à la section de prendre tout l'espace restant */
+    flex: 1;
+    /* Permet à la section de prendre tout l'espace restant */
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 1; /* Mettre en dessous de la navbar */
+    z-index: 1;
+    /* Mettre en dessous de la navbar */
     padding-top: 10em;
     text-align: center;
 }
+
+.main_section_condition {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container_condition {
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+    h1 {
+        color: black;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+
+    ul {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+
+    ul li {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+}
+
 .image-404 {
-    max-width: 300px; /* Taille fixe, ajustable selon tes besoins */
+    max-width: 300px;
+    /* Taille fixe, ajustable selon tes besoins */
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -291,9 +345,12 @@ button:hover {
     }
 
     .map {
-        border: 2px solid #ddd; /* Ajouter une bordure légère */
-        border-radius: 10px; /* Bordure arrondie */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+        border: 2px solid #ddd;
+        /* Ajouter une bordure légère */
+        border-radius: 10px;
+        /* Bordure arrondie */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Ombre portée */
         width: 80%;
         height: 80%;
         margin: 10%;
