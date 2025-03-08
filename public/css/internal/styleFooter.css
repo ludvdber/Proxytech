@@ -9,8 +9,7 @@ footer {
     background-color: #1c2540;
     padding-top: 70px;
     width: 100%;
-    position: relative;
-    bottom: 0;
+    margin-top: auto; /* Permet au footer de se placer en bas */
 }
 
 .container {
@@ -116,7 +115,3 @@ ul {
     }
 }
 
-/* permet d'avoir le footer tout en bas de la page */
-main {
-    flex: 1;
-}

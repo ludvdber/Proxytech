@@ -1,9 +1,10 @@
-html,
-body {
-    height: 100%;
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     scroll-behavior: smooth;
-
 }
+
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -11,10 +12,10 @@ body {
 }
 
 main {
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
     /* Centrer verticalement le contenu */
 }
 
@@ -85,50 +86,35 @@ main {
     text-align: center;
 }
 
-.main_section_condition {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.conditions-header h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: black;
 }
 
-.container_condition {
-    height: 100%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-
-    h1 {
-        color: black;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    h2 {
-        margin-top: 40px;
-        margin-bottom: 15px;
-    }
-
-    h3 {
-        margin-top: 30px;
-        margin-bottom: 10px;
-    }
-
-    p {
-        margin-bottom: 15px;
-        text-align: justify;
-    }
-
-    ul {
-        margin-left: 20px;
-        padding-left: 20px;
-    }
-
-    ul li {
-        margin-bottom: 10px;
-        font-size: 1rem;
-    }
+.conditions-generales {
+    margin: auto;
+    padding: 2em;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    color: #333;
 }
+
+
+.condition-section {
+    margin-bottom: 2em;
+}
+
+
+.condition-section ul {
+    list-style: disc inside;
+    margin-left: 1em;
+}
+
+.condition-section ul li {
+    margin-bottom: 0.5em;
+}
+
 
 .image-404 {
     max-width: 300px;
@@ -442,10 +428,191 @@ button:hover {
     }
 }
 
+
 /*responsive contact + carte */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .contact_col {
         width: 100%;
         margin-bottom: 30px;
     }
+}
+
+
+/* Section "À propos de nous" */
+.about_us {
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+/* Conteneur de contenu */
+.container_about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
+    line-height: 1.8em;
+    color: #333;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+/* Texte "À propos" */
+.about_text {
+    padding-right: 2em;
+    flex: 1 1 70%;
+}
+
+/* Photo "À propos" */
+.about_photo {
+    text-align: center;
+    flex: 1 1 30%;
+}
+
+.about_photo img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about_photo img:hover {
+    transform: scale(1.05);
+}
+
+/* Liens vers les CV */
+.cv_links {
+    margin-top: 1em;
+}
+
+.cv_links a {
+    display: block;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background-color: #20b2aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 0.3s ease;
+}
+
+.cv_links a:hover {
+    background-color: #178f82;
+}
+
+/* Titres */
+.container_about h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Signature */
+.container_about p.signature {
+    text-align: right;
+    font-style: italic;
+    margin-top: 2em;
+    color: #20b2aa;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .container_about {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about_text, .about_photo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container_about h2 {
+        font-size: 2.5rem;
+    }
+
+    .container_about p {
+        font-size: 1.1rem;
+    }
+}
+
+.main_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 2em 2em 2em;
+    height: 100%;
+    /* Centrer verticalement le contenu */
+}
+
+/* Container de la page de politique */
+.privacy-policy {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* En-tête de la politique */
+.policy-header {
+    border-bottom: 2px solid;
+    margin-bottom: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.policy-header h1 {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+/* Sections de contenu */
+.policy-section {
+    margin-bottom: 2em;
+}
+
+.policy-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3em;
+}
+
+.policy-section h3 {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+.policy-section p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+/* Listes à puces */
+.policy-section ul {
+    list-style: disc;
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+.policy-section ul li {
+    margin-bottom: 0.5em;
 }

@@ -148,7 +148,7 @@ function html_main_body(): false|string
                 <h6 class="info"><img alt="phone_icon" height="30" src="resources/phone_icon.png" width="30">
                     Appelez-nous au <a href="tel:+32474312579">0474/31.25.79</a></h6>
                 <h6 class="info"><img alt="mail_icon" height="30" src="resources/mail_icon.png" width="30">
-                    Contactez-nous sur <a href="mailto:proxytech.be@gmail.com?subject=Renseignement">proxytech.be@gmail.com</a>
+                    Contactez-nous sur <a href="mailto:info@proxytech.be?subject=Renseignement">info@proxytech.be</a>
                 </h6>
             </address>
             <aside class="contact_col">

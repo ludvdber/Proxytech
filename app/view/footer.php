@@ -13,22 +13,21 @@ function html_foot(): string
                 <div class="footer-col">
                     <h4>Entreprise</h4>
                     <ul>
-                        <li><a href="">Confidentialité</a></li>
-                        <li><a href="/condition">Conditions générales de vente</a></li>
+                        <li><a href="/rgpd">Confidentialité</a></li>
+                        <li><a href="/conditions">Conditions générales de vente</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Demande d'aide</h4>
                     <ul>
-                        <li><a href="">Nos réparations</a></li>
-                        <li><a href="">Nos autres services</a></li>
+                        <li><a href="reparation">Nos réparations</a></li>
                         <li><a href="">Comment procéder ?</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Nous contacter</h4>
                     <ul>
-                        <li><a href="mailto:proxytech.be@gmail.com?subject=Renseignement">Proxytech.be@gmail.com</a>
+                        <li><a href="mailto:info@proxytech.be?subject=Renseignement">info@proxytech.be</a>
                         </li>
                         <li><a href="tel:+32474312579">0474/31.25.79</a></li>
                     </ul>
@@ -41,7 +40,7 @@ function html_foot(): string
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="logo-footer">
-                        <a href="/home"><img src="resources/proxytech_logo_couleur_nav.png" alt="Logo Proxytech"
+                        <a href="/home"><img src="/resources/proxytech_logo_couleur_nav.png" alt="Logo Proxytech"
                                              class="logo"></a>
                     </div>
                 </div>
