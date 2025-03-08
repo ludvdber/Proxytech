@@ -10,11 +10,16 @@ function html_main_body(): false|string
     ob_start();
     ?>
     <main>
-        <section class="main_section">
-            <h1>Des experts à votre porte pour réparer et connecter votre numérique</h1>
-            <h4>Nous réparons tous vos appareils numériques, de l'ordinateur au smartphone, et concevons des PC sur
-                mesure.
-                Nous sommes également disponibles pour vos projets d'installation et de digitalisation.</h4>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Des experts au service de vos appareils numériques</h1>
+                <h4>De la réparation à la customisation, nos spécialistes en boutique maîtrisent votre tech et prennent
+                    soin de vos appareils.</h4>
+                <a href="#address">
+                    <button type="button">Nous contacter</button>
+                </a>
+            </div>
         </section>
     </main>
     <section class="nos_reparations">
@@ -27,7 +32,7 @@ function html_main_body(): false|string
                 <header>
                     <h4>Smartphones</h4>
                 </header>
-                <p>Nous intervenons sur tout type de marques et modèles sur devis.</p>
+                <p>Nous intervenons sur tout type de marques et modèles.</p>
             </article>
             <article class="art_rep">
                 <img alt="photo d'un pc portable" height="100em" src="resources/emoticone_computer.png"
@@ -35,7 +40,7 @@ function html_main_body(): false|string
                 <header>
                     <h4>Pc portables</h4>
                 </header>
-                <p>Réparation et intervention sur tout problèmes materiels et logiciels sur vos portable.</p>
+                <p>Réparation et intervention sur tout problèmes materiels et logiciels sur vos portables.</p>
             </article>
             <article class="art_rep">
                 <img alt="photo d'un pc de bureau" height="100em" src="resources/emoticone_bureau.png"
@@ -43,8 +48,7 @@ function html_main_body(): false|string
                 <header>
                     <h4>Ordinateurs</h4>
                 </header>
-                <p>Nous réparons les problèmes materiels et logiciels sur vos ordinateurs et nous faisons aussi de la
-                    customisation.</p>
+                <p>Nous réparons les problèmes materiels et logiciels sur vos ordinateurs</p>
             </article>
             <article class="art_rep first_right">
                 <img alt="phton d'une mannette" height="100em" src="resources/emoticone_controller.png"
@@ -75,7 +79,7 @@ function html_main_body(): false|string
                 <header>
                     <h5>Dépoussiérage</h5>
                 </header>
-                <p>Éliminez les problèmes de surchauffe et faites durer vos appareils électroniques plus longtemps avec
+                <p>Éliminez les problèmes de surchauffe et faites durer vos appareils plus longtemps avec
                     notre nettoyage professionnel.</p>
             </article>
             <article class="art_service">
@@ -91,8 +95,7 @@ function html_main_body(): false|string
                 <header>
                     <h5>Logiciel et données</h5>
                 </header>
-                <p>Nous installons configurons les logiciels et Windows, Mais nous récupérons aussi vos données sur tout
-                    type d'appareil.</p>
+                <p>Nous configurons les logiciels et Windows. Nous sauvegardons aussi les données de vos appareils.</p>
             </article>
         </div>
         <a href="#" class="reveal">
@@ -133,7 +136,7 @@ function html_main_body(): false|string
             <button type="button">En savoir plus</button>
         </a>
     </section>
-    <section class="couleurdefond">
+    <section class="couleurdefond" id="address">
         <h1 class="titre_rep">Vous êtes interessé par nos services ?</h1>
         <hr>
         <div class="grid_contact_map">
