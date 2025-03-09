@@ -27,7 +27,7 @@ function html_main_body(): false|string
         <hr>
         <div class="container_article_rep reveal">
             <article class="art_rep first_left">
-                <img alt="photo d'un smartphones" height="100em" src="resources/emoticone_phone.png"
+                <img alt="photo d'un smartphones" height="100em" src="resources/emoticone_phone.webp"
                      width="100em">
                 <header>
                     <h4>Smartphones</h4>
@@ -35,7 +35,7 @@ function html_main_body(): false|string
                 <p>Nous intervenons sur tout type de marques et modèles.</p>
             </article>
             <article class="art_rep">
-                <img alt="photo d'un pc portable" height="100em" src="resources/emoticone_computer.png"
+                <img alt="photo d'un pc portable" height="100em" src="resources/emoticone_computer.webp"
                      width="100em">
                 <header>
                     <h4>Pc portables</h4>
@@ -43,7 +43,7 @@ function html_main_body(): false|string
                 <p>Réparation et intervention sur tout problèmes materiels et logiciels sur vos portables.</p>
             </article>
             <article class="art_rep">
-                <img alt="photo d'un pc de bureau" height="100em" src="resources/emoticone_bureau.png"
+                <img alt="photo d'un pc de bureau" height="100em" src="resources/emoticone_bureau.webp"
                      width="100em">
                 <header>
                     <h4>Ordinateurs</h4>
@@ -51,7 +51,7 @@ function html_main_body(): false|string
                 <p>Nous réparons les problèmes materiels et logiciels sur vos ordinateurs</p>
             </article>
             <article class="art_rep first_right">
-                <img alt="phton d'une mannette" height="100em" src="resources/emoticone_controller.png"
+                <img alt="phton d'une mannette" height="100em" src="resources/emoticone_controller.webp"
                      width="100em">
                 <header>
                     <h4>consoles de jeu</h4>
@@ -68,14 +68,14 @@ function html_main_body(): false|string
         <hr>
         <div class="container_article_service reveal">
             <article class="art_service first_left">
-                <img alt="photo du réseau" height="100em" src="resources/network.png" width="100em">
+                <img alt="photo du réseau" height="100em" src="resources/network.webp" width="100em">
                 <header>
                     <h5>Installation réseau</h5>
                 </header>
                 <p>Nous installons tout type de réseau domestique ou de PME.</p>
             </article>
             <article class="art_service">
-                <img alt="photo du réseau" height="100em" src="resources/clean.png" width="100em">
+                <img alt="photo du réseau" height="100em" src="resources/clean.webp" width="100em">
                 <header>
                     <h5>Dépoussiérage</h5>
                 </header>
@@ -83,7 +83,7 @@ function html_main_body(): false|string
                     notre nettoyage professionnel.</p>
             </article>
             <article class="art_service">
-                <img alt="photo du réseau" height="100em" src="resources/gamingPC.png" width="100em">
+                <img alt="photo du réseau" height="100em" src="resources/gamingPC.webp" width="100em">
                 <header>
                     <h5>PC sur mesure</h5>
                 </header>
@@ -91,7 +91,7 @@ function html_main_body(): false|string
                     professionnel.</p>
             </article>
             <article class="art_service first_right">
-                <img alt="photo du réseau" height="100em" src="resources/windows.png" width="100em">
+                <img alt="photo du réseau" height="100em" src="resources/windows.webp" width="100em">
                 <header>
                     <h5>Logiciel et données</h5>
                 </header>
@@ -141,13 +141,13 @@ function html_main_body(): false|string
         <hr>
         <div class="grid_contact_map">
             <address class="contact_col">
-                <h6 class="info"><img alt="van_icon" height="30" src="resources/van_icon.png" width="30">
+                <h6 class="info"><img alt="van_icon" height="30" src="resources/van_icon.webp" width="30">
                     Intervention gratuite sur un rayon de 10 km de Braine-Le-Comte</h6>
-                <h6 class="info"><img alt="clock_icon" height="30" src="resources/clock_icon.png" width="30"> Horaire
+                <h6 class="info"><img alt="clock_icon" height="30" src="resources/clock_icon.webp" width="30"> Horaire
                     d'intervention : Lundi-Samedi 16-21h</h6>
-                <h6 class="info"><img alt="phone_icon" height="30" src="resources/phone_icon.png" width="30">
+                <h6 class="info"><img alt="phone_icon" height="30" src="resources/phone_icon.webp" width="30">
                     Appelez-nous au <a href="tel:+32474312579">0474/31.25.79</a></h6>
-                <h6 class="info"><img alt="mail_icon" height="30" src="resources/mail_icon.png" width="30">
+                <h6 class="info"><img alt="mail_icon" height="30" src="resources/mail_icon.webp" width="30">
                     Contactez-nous sur <a href="mailto:info@proxytech.be?subject=Renseignement">info@proxytech.be</a>
                 </h6>
             </address>

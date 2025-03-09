@@ -8,8 +8,8 @@ function html_rgpd(): string
 {
     ob_start();
     ?>
-    <main class="main_about">
-    <article class="privacy-policy">
+    <main class="privacy-policy">
+    <article>
         <header class="policy-header">
             <h1>Politique de Confidentialité et de Protection des Données</h1>
         </header>

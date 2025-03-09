@@ -29,7 +29,7 @@ function html_head(): string
     <div class="container_nav">
         <nav class="navbar">
             <div class="container_icon">
-                <a href="/home"><img src="/resources/proxytech_logo_couleur_nav.png" alt="Logo Proxytech"
+                <a href="/home"><img src="/resources/proxytech_logo_couleur_nav.webp" alt="Logo Proxytech"
                                      class="logo"></a>
             </div>
             <ul class="nav-list" id="navi-list">

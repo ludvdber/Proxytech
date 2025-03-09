@@ -8,7 +8,7 @@ function html_conditions_general(): string
 {
     ob_start();
     ?>
-    <main class="grid_contact_map">
+    <main class="privacy-policy">
         <article class="conditions-generales">
             <header class="conditions-header">
                 <h1>Conditions Générales de Vente et de Réparation</h1>
