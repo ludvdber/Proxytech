@@ -39,10 +39,7 @@ function html_foot(): string
                         <a href="https://www.instagram.com/proxytech_7090/"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="logo-footer">
-                        <a href="/home"><img src="/resources/proxytech_logo_couleur_nav.webp" alt="Logo Proxytech"
-                                             class="logo"></a>
-                    </div>
+                    <a href="/home"><img src="/resources/proxytech_white.webp" alt="Logo Proxytech" class="logo"></a>
                 </div>
             </div>
             <div class="footer-copyright-mention">

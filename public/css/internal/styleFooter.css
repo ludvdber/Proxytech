@@ -84,14 +84,6 @@ ul {
         background-color: #ffffff;
     }
 
-    .logo-footer {
-        position: relative;
-        left: -10px;
-
-        .logo {
-            height: 5em;
-        }
-    }
 }
 
 .footer-copyright-mention p {

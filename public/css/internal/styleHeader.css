@@ -34,7 +34,8 @@
 
 .logo {
     height: 5em;
-    filter: brightness(1.1) contrast(1.0) drop-shadow(0 0 3px rgba(255,255,255,0.5));
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
 }
 
 
