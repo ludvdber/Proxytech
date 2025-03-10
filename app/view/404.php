@@ -14,7 +14,7 @@ function html_404(): false|string
             <div class="container_404">
                 <h2>Page non trouvée</h2>
                 <p>Désolé, la page que vous cherchez n'existe pas ou a été déplacée.</p>
-                <img src="/resources/404.jpg" alt="Erreur 404 - Page non trouvée" class="image-404">
+                <img src="/resources/404.webp" alt="Erreur 404 - Page non trouvée" class="image-404">
                 <a href="/home">
                     <button>Retour à l'accueil</button>
                 </a>
