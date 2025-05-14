@@ -102,6 +102,7 @@ function html_main_body(): false|string
             <button type="button">En savoir plus</button>
         </a>
     </section>
+    <!--
     <section class="Procedure">
         <h1 class="titre_rep">Comment procéder ?</h1>
         <hr>
@@ -136,6 +137,7 @@ function html_main_body(): false|string
             <button type="button">En savoir plus</button>
         </a>
     </section>
+-->
     <section class="couleurdefond" id="address">
         <h1 class="titre_rep">Vous êtes interessé par nos services ?</h1>
         <hr>

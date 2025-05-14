@@ -20,8 +20,7 @@ function html_foot(): string
                 <div class="footer-col">
                     <h4>Demande d'aide</h4>
                     <ul>
-                        <li><a href="reparation">Nos réparations</a></li>
-                        <li><a href="">Comment procéder ?</a></li>
+                        <li><a href="/reparations">Nos réparations</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
