@@ -40,7 +40,7 @@ function html_head(): string
                     <a href="/about">À propos de nous</a>
                 </li>
                 <li class="list-item">
-                    <a href="reparation">Réparation</a>
+                    <a href="/reparations">Réparation</a>
                 </li>
                 <li class="list-item">
                     <a href="/home#address">Contact</a>
