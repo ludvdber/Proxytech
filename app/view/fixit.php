@@ -9,9 +9,10 @@ function html_reparation(): string
     ob_start();
     ?>
     <main class="main_fixit">
-        <section class="fixit-section">
+        <section class="fixit-section" id="reparation">
             <div class="container_fixit">
                 <div class="about_text">
+                    <h1>Réparation</h1>
                     <h2>Comment nous procédons</h2>
                     <p>
                     <ul>

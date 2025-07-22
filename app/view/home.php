@@ -14,9 +14,9 @@ function html_main_body(): false|string
             <div class="overlay"></div>
             <div class="hero-content">
                 <h1>Des experts au service de vos appareils numériques</h1>
-                <h4>De la réparation à la customisation, nos spécialistes en boutique maîtrisent votre tech et prennent
-                    soin de vos appareils.</h4>
-                <a href="#address">
+                <h3>De la réparation à la customisation, nos spécialistes en boutique maîtrisent votre tech et prennent
+                    soin de vos appareils.<br /><br /></h3>
+                <a href="#address" class="reveal">
                     <button type="button">Nous contacter</button>
                 </a>
             </div>
@@ -59,7 +59,7 @@ function html_main_body(): false|string
                 <p>Réparation et nettoyage sur tout type de console.</p>
             </article>
         </div>
-        <a href="#" class="reveal">
+        <a href="reparations" class="reveal">
             <button type="button">En savoir plus</button>
         </a>
     </section>
@@ -70,14 +70,14 @@ function html_main_body(): false|string
             <article class="art_service first_left">
                 <img alt="photo du réseau" height="100em" src="resources/network.webp" width="100em">
                 <header>
-                    <h5>Installation réseau</h5>
+                    <h4>Installation réseau</h4>
                 </header>
                 <p>Nous installons tout type de réseau domestique ou de PME.</p>
             </article>
             <article class="art_service">
                 <img alt="photo du réseau" height="100em" src="resources/clean.webp" width="100em">
                 <header>
-                    <h5>Dépoussiérage</h5>
+                    <h4>Dépoussiérage</h4>
                 </header>
                 <p>Éliminez les problèmes de surchauffe et faites durer vos appareils plus longtemps avec
                     notre nettoyage professionnel.</p>
@@ -85,7 +85,7 @@ function html_main_body(): false|string
             <article class="art_service">
                 <img alt="photo du réseau" height="100em" src="resources/gamingPC.webp" width="100em">
                 <header>
-                    <h5>PC sur mesure</h5>
+                    <h4>PC sur mesure</h4>
                 </header>
                 <p>Nous réalisons vos rêves en conceptionnant sur mesure vos tours, que ce soit pour le gaming ou le
                     professionnel.</p>
@@ -93,7 +93,7 @@ function html_main_body(): false|string
             <article class="art_service first_right">
                 <img alt="photo du réseau" height="100em" src="resources/windows.webp" width="100em">
                 <header>
-                    <h5>Logiciel et données</h5>
+                    <h4>Logiciel et données</h4>
                 </header>
                 <p>Nous configurons les logiciels et Windows. Nous sauvegardons aussi les données de vos appareils.</p>
             </article>

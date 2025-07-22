@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "FuturaPT_regular";
+    src: url("../../resources/fonts/Futura_PT/Futura_PT_Book.otf") format("opentype");
+}
+
 footer {
-    font-family: "Poppins", sans-serif;
+    font-family: "FuturaPT_regular", sans-serif;
     background-color: #1c2540;
     padding-top: 70px;
     width: 100%;
-    margin-top: auto; /* Permet au footer de se placer en bas */
+    margin-top: auto;
+    /* Permet au footer de se placer en bas */
 }
 
 .container {
@@ -106,4 +112,3 @@ ul {
         width: 100%;
     }
 }
-
