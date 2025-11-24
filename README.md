@@ -5,7 +5,14 @@
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-base_template-yellow)
 
-A simple PHP web application built with a custom MVC architecture. This project serves as a lightweight starting point for PHP web development.
+## 💡 Purpose
+
+This project was built as a learning exercise to understand:
+- Custom MVC architecture without frameworks
+- PHP routing from scratch
+- Separation of concerns in web applications
+
+It's intentionally minimal — a foundation to build upon.
 
 ## 📁 Project Structure
 
