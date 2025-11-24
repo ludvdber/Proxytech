@@ -1,4 +1,4 @@
-# Proxytech.be
+# Proxytech
 
 ![PHP Version](https://img.shields.io/badge/php-8.4-777BB4?style=flat&logo=php&logoColor=white)
 ![Architecture](https://img.shields.io/badge/architecture-MVC-green)
