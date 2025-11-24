@@ -1,17 +1,47 @@
 # Proxytech.be
 
-### Table of Contents
+![PHP Version](https://img.shields.io/badge/php-8.4-777BB4?style=flat&logo=php&logoColor=white)
+![Architecture](https://img.shields.io/badge/architecture-MVC-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-base_template-yellow)
 
-- [Requirements](#Requirements)
-- [Authors](#Authors)
+A simple PHP web application built with a custom MVC architecture. This project serves as a lightweight starting point for PHP web development.
 
+## 📁 Project Structure
 
-### Requirements
-You can use the script 'ScriptRunSite.ps1' to install al the requirements
+```
+Proxytech/
+├── app/
+│   ├── config/        # Application configuration
+│   ├── controller/    # Request handlers
+│   └── view/          # HTML templates
+├── public/            # Web root (CSS, JS, images)
+```
 
-- PHP 8.4
+## ⚙️ Requirements
 
-### Authors
+- PHP 8.4+
 
-- Delnatte Nathan
-- Vanden Berghe Ludovic
+## 🏗️ Architecture
+
+This project follows the **Model-View-Controller (MVC)** pattern:
+
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| **Controllers** | `app/controller/` | Handle HTTP requests and business logic |
+| **Views** | `app/view/` | HTML templates for rendering pages |
+| **Config** | `app/config/` | Application settings and routes |
+| **Public** | `public/` | Static assets (entry point: `index.php`) |
+
+## 🤝 Contributing
+
+Feel free to fork this project and use it as a base for your own PHP applications.
+
+## 👥 Authors
+
+- **Nathan Delnatte**
+- **Ludovic Vanden Berghe** - [@ludvdber](https://github.com/ludvdber)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
